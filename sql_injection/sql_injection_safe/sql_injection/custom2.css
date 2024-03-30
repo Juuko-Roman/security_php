@@ -1,0 +1,220 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+#validationMessage,
+#vmu1,
+#vmc {
+  padding: 15px;
+  font-weight: bold;
+  display: none;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  color: red;
+  background-color: #fed8d8;
+}
+#login_title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #292d34;
+  text-align: center;
+  margin-bottom: 20px;
+}
+label[class="login_form_labels"],
+label[class="login_form_label_2"] {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  display: block;
+  color: #292d34;
+  padding: 0 0 8px 2px;
+}
+#login_sumit {
+  transition: background-color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  background-color: #b00404;
+  height: 50px;
+  font-family: helvetica, arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 9px;
+  width: 100%;
+  margin-bottom: 22px;
+}
+#login_sumit:hover {
+  background-color: #f06f6f;
+}
+#a_signup,
+#reset,
+button[name="redirect"] {
+  transition: color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  color: #b00404;
+  text-align: center;
+}
+#a_signup:hover,
+#reset:hover,
+button[name="redirect"]:hover {
+  color: #f06f6f;
+}
+input {
+  transition: border-color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  /* font-family: helvetica,arial,sans-serif; */
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    roboto,
+    Helvetica Neue,
+    helvetica,
+    arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  width: 100%;
+  border: 1px solid #d6d9de;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 0 20px 0 36px;
+  height: 40px;
+  color: #2a2e34;
+}
+.form-group input[type="text"]:focus {
+  border: 1px solid #7b68ee;
+  border-radius: 9px;
+  /* box-shadow: 0; */
+  outline: 0;
+  box-shadow: inset 0 0 0 0 #888;
+}
+
+.realign {
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.terr {
+  padding: 15px;
+  font-weight: bold;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  color: red;
+  background-color: #fed8d8;
+}
+.oe_login_form,
+.oe_reset_password_form {
+  max-width: 100% !important;
+  margin: 0px;
+
+  padding: 0px;
+}
+.move_up {
+  margin-bottom: 40%;
+}
+button.backward1,
+button.verify,
+button.forward1 {
+  border: none;
+  color: #777;
+  text-decoration: none;
+  transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -webkit-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  text-align: center;
+  background: #e8e8e8;
+  position: relative;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 1;
+  padding: 12px 30px;
+}
+.backward1:hover,
+.verify:hover,
+.forward1:hover {
+  background: #d80075;
+  color: #fff;
+}
+
+button.verify {
+  background-color: #118fca;
+  color: #fff;
+}
+button.forward1 {
+  background-color: #1dbe72;
+  color: #fff;
+}
+#realprogress {
+  width: 0%;
+}
+#top-wizard {
+  padding-bottom: 5px !important;
+}
+
+h2.section_title {
+  font-size: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 0.5rem !important;
+}
+
+h3.main_question {
+  margin: 0 0 10px 0 !important;
+
+  color: #4ccb00 !important;
+
+  font-weight: 900 !important;
+}
+
+#latss {
+  display: none !important;
+}
+.content-left {
+  background: linear-gradient(to bottom, #466fcf 0%, #23a1cf 100%) !important;
+  padding: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.content-right {
+  height: auto !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+@media (max-width: 540px) {
+  .content-left {
+    display: none;
+  }
+  .content-right {
+    margin-top: 30px;
+  }
+  #latss {
+    display: block !important;
+    margin-top: 20px;
+  }
+}
+
+.fl-wrap .fl-input::placeholder,
+.fl-wrap .fl-textarea::placeholder {
+  transition: color 0.2s;
+}
+
+.fl-wrap.fl-is-active .fl-input::placeholder,
+.fl-wrap.fl-is-active .fl-textarea::placeholder {
+  color: transparent;
+}
